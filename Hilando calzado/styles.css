@@ -1,0 +1,96 @@
+/* Estilo para hacer botones con esquinas circulares */
+.circular-button {
+    border-radius: 50px; /* Circular solo las esquinas */
+}
+
+/* Estilo para el carrusel manteniendo su tamaño original */
+#myCarousel {
+    max-width: 600px; /* Ajusta el ancho máximo según tu preferencia */
+    margin: 0 auto;
+}
+
+/* Ajuste de tamaño de las imágenes en el carrusel */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo para el icono de la casita */
+.fa-home {
+    color: black;
+}
+
+/* Estilo para los iconos de redes sociales */
+.fab {
+    color: white;
+}
+
+/* Estilo para el texto del botón "Ingresa" */
+#ingresa-button {
+    color: black;
+}
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/****************************/
+/*estilos Almacen*/
+.button-almacen {
+    background-color: #FFFFEB;
+    font-size: 20px;
+}
+.categoria-bar {
+    background-color: #DAA686;
+    color: black;
+    padding: 5px 150px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.cartel {
+    max-width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0; /* Alinea el cartel en la parte superior de las imágenes */
+}     .container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.column {
+    flex: 1;
+    margin: 5px;
+}
+.column img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/**************************************/
+/*estilos Niños*/
+
+.categoria-barNIÑOS {
+    background-color: #DAA686;
+    color: black;
+    padding: 3px 0; /* Modificamos el margen izquierdo */
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Estilo adicional para ajustar el tamaño del texto */
+.categoria-bar-textNIÑOS {
+    font-size: 26px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%; /* Ajusta el ancho del rectángulo */
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paypal-HILANDO CALZADO</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+     table {
+            border: none;
+        }
+        table td {
+            padding: 10px;
+        }
+    
+        .footer-buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .cafe-background {
+            background-color: #A76E51;
+        }
+        .espacio {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body style="background-color: #ECD6C0;">
+    <header style="background-color: #BF9780; padding: 10px; font-size: 20px;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <img src="img/logo.png" alt="Logo" width="400" style="width: 200px !important;"> <!-- Ajusta el ancho a tu preferencia -->
+            </div>            
+            <div style="display: flex; align-items: center;">
+                <h2 style="font-size: 76px;">Carrito</h2>
+                <a href="carrito.html"><img src="img/carrito.png" alt="Carrito de Compra" width="60"></a>
+            </div>
+            <div>
+                <img src="img/login.png" alt="Icono" width="60">
+                <button class="circular-button" style="background-color: #FFFFEB; font-size: 20px;"><a href="iniciar-sesion.html" id="ingresa-button">cerrar sesión</a></button>
+                <br>
+                <a href="almacen.html"><button class="circular-button" style="background-color: #FFFFEB; font-size: 20px;">Almacen</button></a>
+                <a href="nosotros.html"><button class="circular-button button-almacen">Nosotros</button></a>
+            </div>
+        </div>
+    </header>
+    <br>
+    <div style="display: flex; align-items: center; justify-content: space-between; padding: 0 20px;">
+        <a href="index.html"><i class="fa fa-home" style="font-size: 54px;"></i></a>
+    </div>
+    <br>
+    <!-- Tabla -->
+    <div class="container">
+        <table>
+            <tr>
+                <td class="cafe-background espacio">Producto</td>
+                <td class="cafe-background espacio">Precio</td>
+                <td class="cafe-background espacio">Detalle</td>
+                <td class="cafe-background espacio">Método de Pago</td>
+            </tr>
+            <tr>
+                <td><img style="width: 100px;" src="img/tenis_niños.jpg" alt="Producto"></td>
+                <td>$450.00</td>
+                <td>Materiales: <br> Bordado Intrincado <br> Precio: $450.00</td>
+                <td><img style="width: 100px;" src="img/delivery.png" alt="Método de Pago"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td class="cafe-background espacio">Total:</td>
+                <td>$450.00</td>
+            </tr>
+        </table>
+        
+    </div>
+    <br>
+
+    <!-- Botones debajo de la tabla -->
+    <div class="container">
+        <div class="footer-buttons">
+            <a href="almacen.html"><button class="circular-button" style="background-color: #FFFFEB; font-size: 20px; margin-right: 200px;">Continuar Comprando</button></a>
+            <a href="gracias por tu compra.html"><button class="circular-button" style="background-color: #FFFFEB; font-size: 20px;">Finalizar la compra</button></a>
+        </div>
+    </div>
+    <br><br><br>
+    <footer style="background-color: #452C20; color: white; padding: 25px; font-size: 24px;">
+        <div style="display: flex; justify-content: space-between;">
+            <div>
+                Redes Sociales
+                <a href="enlace-de-facebook"><i class="fab fa-facebook"></i></a>
+                <a href="enlace-de-twitter"><i class="fab fa-twitter"></i></a>
+                <a href="enlace-de-instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div>Hilando Calzado</div>
+        </div>
+    </footer>
+</body>
+</html>
